@@ -109,7 +109,7 @@ history = model.fit(datagen.flow(X_train, y_train, batch_size=32),
                     validation_data=(X_val, y_val))
 
 # Save the model
-model.save("cnn9grps_rad1_model.h5")
+model.save("cnn8grps_rad1_model.h5")
 
 # Evaluate the model on the validation set
 val_loss, val_acc = model.evaluate(X_val, y_val)
